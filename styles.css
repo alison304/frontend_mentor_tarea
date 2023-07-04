@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 150px 50px;
+    background-color: #ECF2F7;
+    font-size: 13px;
+}
+
+/* card-1 */
+
+.card-1 {
+    background-color: #8253cc;
+    border-radius: 10px;
+    width: 531px;
+    height: 265px;
+    color: white;
+    padding: 30px;
+    margin-right: 35px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card-title img {
+    border-radius: 50%;
+    border: 3px solid #a774f3;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.title p {
+    color: hsl(263, 55%, 52% 50%);
+    opacity: 50%;
+    padding-top: 6px;
+}
+
+.phrase {
+    width: 536px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text-1 {
+    line-height: 21px;
+    opacity: 70%;
+    width: 494px;
+}
+
+/* card-2 */
+
+.card-2 {
+    background-color: #49556a;
+    border-radius: 10px;
+    width: 225px;
+    height: 261px;
+    color: white;
+    padding: 30px;
+}
+
+.card-2 img {
+    border: 3px solid hsl(0, 0%, 81%);
+}
+
+.phrase-2 {
+    width: 222px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text-2 {
+    width: 200px;
+    line-height: 21px;
+    opacity: 70%;
+}
+
+/* card-3 */
+
+.card-3 {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 249px;
+    color: #49556a;
+    padding: 30px;
+    margin-right: 40px;
+}
+
+.card-3 img {
+    border: 3px solid hsl(0, 0%, 81%);
+}
+
+.phrase-3 {
+    width: 205px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text-3 {
+    width: 209px;
+    line-height: 21px;
+    opacity: 70%;
+}
+
+/* card-4 */
+
+.card-4 {
+    background-color: #19202e;
+    border-radius: 10px;
+    width: 561px;
+    height: 245px;
+    color: white;
+    padding: 30px;
+}
+
+.phrase-4 {
+    width: 542px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text-4 {
+    width: 480px;
+    line-height: 21px;
+    opacity: 70%;
+}
+
+/* card-5 */
+
+.card-5 {
+    background-color: white;
+    border-radius: 10px;
+    width: 246px;
+    height: 605px;
+    color: #49556a;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.card-5 img {
+    border: 3px solid hsl(0, 0%, 81%);
+}
+
+.phrase-5 {
+    width: 251px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text-5 {
+    width: 197px;
+    line-height: 21px;
+    opacity: 70%;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.main-banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* mobile and desktop*/
+/* - Mobile: 375px & Desktop: 1440px */
+@media (max-width:375px) {
+    .column-1 {
+        flex-direction: column;
+    }
+
+    .column-2 {
+        flex-direction: column;
+    }
+
+    .main-banner {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        margin-bottom: 30px;
+        width: 277px;
+        height: 450px;
+        margin-right: 0px;
+    }
+    
+    .phrase {
+        width: 277.5px;
+    }
+
+    .text-1 {
+        width: 259px;
+    }
+
+    body {
+        padding: 122px 16px;
+    }
+
+    /* card-2 */
+
+    .card-2 {
+        width: 263px;
+        height: 230px;
+    }
+
+    .phrase-2 {
+        width: 290px;
+    }
+
+    .text-2 {
+        width: 271px;
+    }
+
+    /* card-3 */
+    .card-3 {
+        width: 265px;
+        height: 220px;
+        margin-right: 0px;
+    }
+
+    .text-3 {
+        width: 257px;
+    }
+
+    /* card-4 */
+    .card-4 {
+        width: 271px;
+        height: 378px;
+        margin-top: 30px;
+    }
+
+    .phrase-4 {
+        width: 293px;
+    }
+
+    .text-4 {
+        width: 267px;
+    }
+
+    /* card-5 */
+
+    .card-5 {
+        margin-left: 0px;
+        width: 280px;
+        height: 471px;
+        margin-top: 30px;
+    }
+
+    .phrase-5 {
+        width: 321px;
+    }
+
+    .text-5 {
+        width: 269.5px;
+    }
+}
